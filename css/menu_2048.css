@@ -1,0 +1,100 @@
+* {
+    margin:0;
+    padding:0;
+  }
+
+  body {
+    background-color:#fbfdff;
+    font-family: 'Raleway', sans-serif;
+  }
+
+
+
+  #menubar {
+    position:relative;
+    width:80%;
+    margin:5% auto;
+    background-color:#62b1ff;
+    box-shadow: 2px 2px 5px 0px #7996b2;
+  }
+
+  #menubar > nav {
+    width:100%;
+    display:flex;
+    max-height:80px;
+  }
+
+  #logo_text {
+    line-height:80px;
+    font-size:30px;
+    padding: 0 50px;
+    color: white;
+    width:500%;
+    letter-spacing:5px;
+  }
+  
+  #menubar > nav > ul {
+    margin:0;
+    list-style-type:none;
+    display:flex;
+    position:absolute;
+      right:50px;
+  }
+
+  #menubar > nav > ul > li {
+    line-height:80px;
+    margin: 0 0px;
+    padding:0;
+    text-align:center;
+    display:inline-block;
+    min-width:120px;
+  } 
+
+  #menubar > nav > ul > li > a {
+    text-decoration:none;
+    position:relative;
+    margin: 0 20px;
+      color:white;
+  }
+
+  #menubar > nav > ul > li:hover {
+    border-bottom: 2px solid white;
+    background-color: #0088ff;
+    width: 100%
+  }
+
+  #menubar > nav > ul > .dropdown:hover {
+    border-bottom:none;
+  }
+  #menubar > nav > ul > .dropdown:hover >  .dd
+  {
+    width: 100%
+    visibility: visible;
+    display:block;
+    padding: 0 10px;
+  }
+
+
+  #menubar > nav > ul > li > div {
+    position:absolute;
+    padding: 0 10px;
+
+    visibility: hidden;
+    background-color:#e1f0ff;
+    min-width:100px;
+  }
+  
+  #menubar > nav > ul > li > div > ul {
+    margin:0px 0 10px 0;
+    padding:0;
+    list-style:none;
+  }
+
+  #menubar > nav > ul > li> div > ul > li:hover {
+    background-color:#c8e4ff;
+  }
+  #menubar > nav > ul > li > div > ul > li > a {
+    text-decoration:none;
+    padding : 5px;
+      color:black;
+  }
